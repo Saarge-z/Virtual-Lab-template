@@ -6,68 +6,20 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    
-    
-    
-    
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-
-
-<link href="css/all.min.css" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-  <!-- Custom styles for this template -->
-  <link href="css/clean-blog.min.css" rel="stylesheet">
-
-
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="/">Title</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-<!--        <i class="fas fa-bars"></i>-->
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Notices</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <?php 
+    include ("header.php")    
+    ?>
 
 </head>
 
 <body>
-    <main class="cs-page-wrapper">
+    
 
         <div class="container-fluid pt pb pt-lg">
           <div class="row align-items-center py">
             
             <div class="col-xl-6 col-lg-5 d-flex justify-content-end">
-              <div class="cs-parallax" style="max-width: 1010px; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
+              <div class="cs-parallax" style="max-width: 1020px; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
                 <div class="cs-parallax-layer position-relative" data-depth="0.1" style="transform: translate3d(-7.9px, 3.7px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;"><img src="images/layer01.png" alt="Layer">
                 </div>
                 <div class="cs-parallax-layer" data-depth="0.15" style="transform: translate3d(-11.8px, 5.5px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer02.png" alt="Layer">
@@ -120,7 +72,6 @@
             </div>
           </div>
         </div>
-    </main>
 <!--    For curve below the main design
         <div class="cs-shape cs-shape-bottom cs-shape-curve bg-secondary">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 185.4">
@@ -300,19 +251,10 @@
             </form>
             <div>
     </section>
-            
-            <footer>
-    <p class="p-3 bg-dark text-white text-center">...</h3>
-</footer>
-
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src = "js/bootsrap.bundle.min.js"></script>
-<script src = "js/smooth-scroll.polyfills.min.js"></script>
-<script src = "js/parallax.min.js"></script>
-<!--Main Theme Script-->
-<script src = "js/theme.min.js"></script>
-<script src="js/clean-blog.min.js"></script>
+        <?php 
+        # Footter include javascripts
+        include ("footer.php")    
+        ?>
 
 </body>
 
