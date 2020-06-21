@@ -246,6 +246,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                         <a class="nav-link" href="" data-toggle="modal" data-target="#login">Login | Register</a>
                         <!--              <a href="" class="btn btn-warning btnEquip" title="issue_equip" data-toggle="modal" data-target="#return_equip">Return Equipment</a>-->
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" data-toggle="modal" data-target="#test">Test</a>
+                        <!--              <a href="" class="btn btn-warning btnEquip" title="issue_equip" data-toggle="modal" data-target="#return_equip">Return Equipment</a>-->
+                    </li>
                 </ul>
             </div>
         </div>
@@ -528,12 +532,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>?id=login" method="post">
                                 <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
                                     <label>Username</label>
-                                    <input type="text" name="username" class="form-control" value="<?php echo $username; ?>">
+                                    <input type="text" name="username" class="form-control" value="<?php echo $username; ?>" required>
                                     <span class="help-block"><?php echo $username_err; ?></span>
                                 </div>
                                 <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
                                     <label>Password</label>
-                                    <input type="password" name="password" class="form-control">
+                                    <input type="password" name="password" class="form-control" required>
                                     <span class="help-block"><?php echo $password_err; ?></span>
                                 </div>
                                 <div class="form-group">
@@ -575,17 +579,17 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>?id=signup" method="post">
                                 <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
                                     <label>Username</label>
-                                    <input type="text" name="username" class="form-control" value="<?php echo $username; ?>">
+                                    <input type="text" name="username" class="form-control" value="<?php echo $username; ?>" required>
                                     <span class="help-block"><?php echo $username_err; ?></span>
                                 </div>
                                 <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
                                     <label>Password</label>
-                                    <input type="password" name="password" class="form-control" value="<?php echo $password; ?>">
+                                    <input type="password" name="password" class="form-control" value="<?php echo $password; ?>" required>
                                     <span class="help-block"><?php echo $password_err; ?></span>
                                 </div>
                                 <div class="form-group <?php echo (!empty($confirm_password_err)) ? 'has-error' : ''; ?>">
                                     <label>Confirm Password</label>
-                                    <input type="password" name="confirm_password" class="form-control" value="<?php echo $confirm_password; ?>">
+                                    <input type="password" name="confirm_password" class="form-control" value="<?php echo $confirm_password; ?>" required>
                                     <span class="help-block"><?php echo $confirm_password_err; ?></span>
                                 </div>
                                 <div class="form-group">
@@ -600,16 +604,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
+    
     <?php include('footer.php') ?>
 
 </body>
