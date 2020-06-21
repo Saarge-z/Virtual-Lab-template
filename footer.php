@@ -1,5 +1,5 @@
 <footer>
-    <p class="p-3 bg-dark text-white text-center">...</h3>
+    <p class="p-3 bg-dark text-white text-center">Department of Computer Science</h3>
 </footer>
 
 <script src="js/jquery.min.js"></script>

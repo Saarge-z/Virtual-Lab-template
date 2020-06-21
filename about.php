@@ -9,8 +9,8 @@
     ?>
 </head>
 <body>
-
-<div class="jumbotron">
+<!--Add background color as per style -> style="background-color:#0b2e13"-->
+<div class="jumbotron" >
   <h1>About Us</h1>
   <p>This is the about us page</p>
 </div>
@@ -30,6 +30,7 @@
        <a href="about.php" class="btn btn-success">Click Here</a>
    </div>
 </div>
+    </div>
 </section>
 <?php 
 include ("footer.php")    
