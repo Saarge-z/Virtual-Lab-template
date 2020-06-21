@@ -199,11 +199,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 
 
-
-
-
-
-
 <!DOCTYPE html>
 <html>
 
@@ -212,58 +207,58 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    
-    
-    
-    
+
+
+
+
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
 
-<link href="css/all.min.css" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
-  <!-- Custom styles for this template -->
-  <link href="css/clean-blog.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
 
 
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="/">Title</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-<!--        <i class="fas fa-bars"></i>-->
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.php">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.php">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Notices</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="" data-toggle="modal" data-target="#login">Login | Register</a>
-<!--              <a href="" class="btn btn-warning btnEquip" title="issue_equip" data-toggle="modal" data-target="#return_equip">Return Equipment</a>-->
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="/">Title</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <!--        <i class="fas fa-bars"></i>-->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.php">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Notices</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" data-toggle="modal" data-target="#login">Login | Register</a>
+                        <!--              <a href="" class="btn btn-warning btnEquip" title="issue_equip" data-toggle="modal" data-target="#return_equip">Return Equipment</a>-->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
 
 </head>
 
@@ -271,71 +266,71 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <main class="cs-page-wrapper" style="background-color:#33334d">
 
         <div class="container-fluid pt pb pt-lg">
-          <div class="row align-items-center py">
-            
-            <div class="col-xl-6 col-lg-5 d-flex justify-content-end">
-              <div class="cs-parallax" style="max-width: 1010px; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
-                <div class="cs-parallax-layer position-relative" data-depth="0.1" style="transform: translate3d(-7.9px, 3.7px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;"><img src="images/layer01.png" alt="Layer">
+            <div class="row align-items-center py">
+
+                <div class="col-xl-6 col-lg-5 d-flex justify-content-end">
+                    <div class="cs-parallax" style="max-width: 1010px; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
+                        <div class="cs-parallax-layer position-relative" data-depth="0.1" style="transform: translate3d(-7.9px, 3.7px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;"><img src="images/layer01.png" alt="Layer">
+                        </div>
+                        <div class="cs-parallax-layer" data-depth="0.15" style="transform: translate3d(-11.8px, 5.5px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer02.png" alt="Layer">
+                        </div>
+                        <div class="cs-parallax-layer" data-depth="0.25" style="transform: translate3d(-19.7px, 9.2px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer03.png" alt="Layer">
+                        </div>
+                        <div class="cs-parallax-layer" data-depth="0.35" style="transform: translate3d(-27.6px, 12.9px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer04.png" alt="Layer">
+                        </div>
+                        <div class="cs-parallax-layer" data-depth="0.5" style="transform: translate3d(-39.4px, 18.5px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer05.png" alt="Layer">
+                        </div>
+                        <div class="cs-parallax-layer" data-depth="0.28" style="transform: translate3d(-22.1px, 10.3px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer06.png" alt="Layer">
+                        </div>
+                        <div class="cs-parallax-layer" data-depth="0.4" style="transform: translate3d(-31.5px, 14.8px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer07.png" alt="Layer">
+                        </div>
+                        <div class="cs-parallax-layer" data-depth="0.5" style="transform: translate3d(-39.4px, 18.5px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer08.png" alt="Layer">
+                        </div>
+                        <div class="cs-parallax-layer" data-depth="0.28" style="transform: translate3d(-22.1px, 10.3px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer09.png" alt="Layer">
+                        </div>
+                        <div class="cs-parallax-layer" data-depth="0.4" style="transform: translate3d(-31.5px, 14.8px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer10.png" alt="Layer">
+                        </div>
+                        <div class="cs-parallax-layer" data-depth="0.25" style="transform: translate3d(-19.7px, 9.2px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer11.png" alt="Layer">
+                        </div>
+                        <div class="cs-parallax-layer" data-depth="0.45" style="transform: translate3d(-35.5px, 16.6px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer12.png" alt="Layer">
+                        </div>
+                    </div>
                 </div>
-                <div class="cs-parallax-layer" data-depth="0.15" style="transform: translate3d(-11.8px, 5.5px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer02.png" alt="Layer">
-                </div>
-                <div class="cs-parallax-layer" data-depth="0.25" style="transform: translate3d(-19.7px, 9.2px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer03.png" alt="Layer">
-                </div>
-                <div class="cs-parallax-layer" data-depth="0.35" style="transform: translate3d(-27.6px, 12.9px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer04.png" alt="Layer">
-                </div>
-                <div class="cs-parallax-layer" data-depth="0.5" style="transform: translate3d(-39.4px, 18.5px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer05.png" alt="Layer">
-                </div>
-                <div class="cs-parallax-layer" data-depth="0.28" style="transform: translate3d(-22.1px, 10.3px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer06.png" alt="Layer">
-                </div>
-                <div class="cs-parallax-layer" data-depth="0.4" style="transform: translate3d(-31.5px, 14.8px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer07.png" alt="Layer">
-                </div>
-                <div class="cs-parallax-layer" data-depth="0.5" style="transform: translate3d(-39.4px, 18.5px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer08.png" alt="Layer">
-                </div>
-                <div class="cs-parallax-layer" data-depth="0.28" style="transform: translate3d(-22.1px, 10.3px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer09.png" alt="Layer">
-                </div>
-                <div class="cs-parallax-layer" data-depth="0.4" style="transform: translate3d(-31.5px, 14.8px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer10.png" alt="Layer">
-                </div>
-                <div class="cs-parallax-layer" data-depth="0.25" style="transform: translate3d(-19.7px, 9.2px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer11.png" alt="Layer">
-                </div>
-                <div class="cs-parallax-layer" data-depth="0.45" style="transform: translate3d(-35.5px, 16.6px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"><img src="images/layer12.png" alt="Layer">
-                </div>
-              </div>
-            </div>
-              
-              <div class="col-xl-6 col-lg-7 ">
-              <div class="pt-2 pb-3 pb-lg-0 mx-auto mb-5 mb-lg-0 ml-lg-0 mr-xl-7 text-center text-lg-left" style="max-width: 495px;">
-                <h1 class="display-4 text-light pb-2"><span class="font-weight-light">Have a look </span>Around!</h1>
-                <p class="h4 font-weight-light text-light opacity-70 line-height-base">Let the learning begin.</p>
-<!--             Button Above the main picture
+
+                <div class="col-xl-6 col-lg-7 ">
+                    <div class="pt-2 pb-3 pb-lg-0 mx-auto mb-5 mb-lg-0 ml-lg-0 mr-xl-7 text-center text-lg-left" style="max-width: 495px;">
+                        <h1 class="display-4 text-light pb-2"><span class="font-weight-light">Have a look </span>Around!</h1>
+                        <p class="h4 font-weight-light text-light opacity-70 line-height-base">Let the learning begin.</p>
+                        <!--             Button Above the main picture
 <a class="d-inline-flex align-items-center text-decoration-none pt-2 mt-4 mb-5" href="#demos" data-scroll=""><span class="btn btn-icon rounded-circle border-primary"><i class="fe-arrow-down h4 text-primary my-1"></i></span><span class="ml-3 text-primary font-weight-medium">ADD BUTTON HERE</span></a>-->
-                <hr class="hr-light mb-5">
-                <div class="row">
-                  <div class="col-sm-4 mb-4 mb-sm-0">
-                    <div class="h1 text-light mb-1">cc</div>
-                    <div class="h5 text-light font-weight-normal opacity-70 mb-2">Just for Demo</div><span class="badge badge-pill badge-success">More coming</span>
-                  </div>
-                  <div class="col-sm-4 mb-4 mb-sm-0">
-                    <div class="h1 text-light mb-1">cc</div>
-                    <div class="h5 text-light font-weight-normal opacity-70 mb-1">Just for Demo</div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="h1 text-light mb-1">cc</div>
-                    <div class="h5 text-light font-weight-normal opacity-70 mb-1">Just for Demo</div>
-                  </div>
+                        <hr class="hr-light mb-5">
+                        <div class="row">
+                            <div class="col-sm-4 mb-4 mb-sm-0">
+                                <div class="h1 text-light mb-1">cc</div>
+                                <div class="h5 text-light font-weight-normal opacity-70 mb-2">Just for Demo</div><span class="badge badge-pill badge-success">More coming</span>
+                            </div>
+                            <div class="col-sm-4 mb-4 mb-sm-0">
+                                <div class="h1 text-light mb-1">cc</div>
+                                <div class="h5 text-light font-weight-normal opacity-70 mb-1">Just for Demo</div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="h1 text-light mb-1">cc</div>
+                                <div class="h5 text-light font-weight-normal opacity-70 mb-1">Just for Demo</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
     </main>
-<!--    For curve below the main design
+    <!--    For curve below the main design
         <div class="cs-shape cs-shape-bottom cs-shape-curve bg-secondary">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 185.4">
             <path fill="currentColor" d="M3000,0v185.4H0V0c496.4,115.6,996.4,173.4,1500,173.4S2503.6,115.6,3000,0z"></path>
           </svg>
         </div>
 -->
-<!--
+    <!--
     <div id="demo" class="carousel slide" data-ride="carousel">
 
          Indicators 
@@ -346,7 +341,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         </ul>
 -->
 
-<!--
+    <!--
          The slideshow 
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -373,7 +368,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         </div>
 -->
 
-<!--
+    <!--
          Left and right controls 
         <a class="carousel-control-prev" href="#demo" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
@@ -402,7 +397,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </section>
 -->
 
-<!--
+    <!--
     <section class="my-5">
         <div class="py-3">
             <h1 class="text-center">Services</h1>
@@ -507,14 +502,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </form>
         </div>
     </section>
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
     <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 
         <div class="modal-dialog" role="document">
@@ -528,43 +523,40 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <div class="modal-body mx-3">
                     <div class="modal_body_contents">
 
-                       <div class="wrapper">
-        <p>Please fill in your credentials to login.</p>
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>?id=login" method="post">
-            <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-                <label>Username</label>
-                <input type="text" name="username" class="form-control" value="<?php echo $username; ?>">
-                <span class="help-block"><?php echo $username_err; ?></span>
-            </div>    
-            <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
-                <label>Password</label>
-                <input type="password" name="password" class="form-control">
-                <span class="help-block"><?php echo $password_err; ?></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Login">
-            </div>
-            <p>Don't have an account? <a href="" data-toggle="modal" data-target="#register">Sign up now</a>.</p>
-        </form>
-    </div>
+                        <div class="wrapper">
+                            <p>Please fill in your credentials to login.</p>
+                            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>?id=login" method="post">
+                                <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
+                                    <label>Username</label>
+                                    <input type="text" name="username" class="form-control" value="<?php echo $username; ?>">
+                                    <span class="help-block"><?php echo $username_err; ?></span>
+                                </div>
+                                <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
+                                    <label>Password</label>
+                                    <input type="password" name="password" class="form-control">
+                                    <span class="help-block"><?php echo $password_err; ?></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="btn btn-primary" value="Login">
+                                </div>
+                                <p>Don't have an account? <a href="" data-toggle="modal" data-target="#register">Sign up now</a>.</p>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
     <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 
         <div class="modal-dialog" role="document">
@@ -578,52 +570,47 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <div class="modal-body mx-3">
                     <div class="modal_body_contents">
 
-                       <div class="wrapper">
-        <p>Please fill this form to create an account.</p>
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>?id=signup" method="post">
-            <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-                <label>Username</label>
-                <input type="text" name="username" class="form-control" value="<?php echo $username; ?>">
-                <span class="help-block"><?php echo $username_err; ?></span>
-            </div>    
-            <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
-                <label>Password</label>
-                <input type="password" name="password" class="form-control" value="<?php echo $password; ?>">
-                <span class="help-block"><?php echo $password_err; ?></span>
-            </div>
-            <div class="form-group <?php echo (!empty($confirm_password_err)) ? 'has-error' : ''; ?>">
-                <label>Confirm Password</label>
-                <input type="password" name="confirm_password" class="form-control" value="<?php echo $confirm_password; ?>">
-                <span class="help-block"><?php echo $confirm_password_err; ?></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Submit">
-                <input type="reset" class="btn btn-default" value="Reset">
-            </div>
-            <p>Already have an account? Go back & Login.</p>
-        </form>
-    </div>
+                        <div class="wrapper">
+                            <p>Please fill this form to create an account.</p>
+                            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>?id=signup" method="post">
+                                <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
+                                    <label>Username</label>
+                                    <input type="text" name="username" class="form-control" value="<?php echo $username; ?>">
+                                    <span class="help-block"><?php echo $username_err; ?></span>
+                                </div>
+                                <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
+                                    <label>Password</label>
+                                    <input type="password" name="password" class="form-control" value="<?php echo $password; ?>">
+                                    <span class="help-block"><?php echo $password_err; ?></span>
+                                </div>
+                                <div class="form-group <?php echo (!empty($confirm_password_err)) ? 'has-error' : ''; ?>">
+                                    <label>Confirm Password</label>
+                                    <input type="password" name="confirm_password" class="form-control" value="<?php echo $confirm_password; ?>">
+                                    <span class="help-block"><?php echo $confirm_password_err; ?></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="btn btn-primary" value="Submit">
+                                    <input type="reset" class="btn btn-default" value="Reset">
+                                </div>
+                                <p>Already have an account? Go back & Login.</p>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-            
-            <?php include('footer.php') ?>
+
+
+
+
+
+
+
+
+
+
+    <?php include('footer.php') ?>
 
 </body>
 
