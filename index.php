@@ -244,11 +244,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="" data-toggle="modal" data-target="#login">Login | Register</a>
-                        <!--              <a href="" class="btn btn-warning btnEquip" title="issue_equip" data-toggle="modal" data-target="#return_equip">Return Equipment</a>-->
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="" data-toggle="modal" data-target="#test">Test</a>
-                        <!--              <a href="" class="btn btn-warning btnEquip" title="issue_equip" data-toggle="modal" data-target="#return_equip">Return Equipment</a>-->
                     </li>
                 </ul>
             </div>
